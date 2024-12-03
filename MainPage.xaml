@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="mobileapp.MainPage"
+             NavigationPage.HasBackButton="False"
              BackgroundColor="#E0F7FA"  
     Padding="30">
 
