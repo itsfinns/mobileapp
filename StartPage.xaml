@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mobileapp.StartPage"
+             BackgroundColor="#9ec1f0"
+             NavigationPage.HasNavigationBar="False"
+             NavigationPage.HasBackButton="False">
+    <AbsoluteLayout>
+        <Label 
+            Text="Truth or Drink"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            AbsoluteLayout.LayoutBounds="75, 50"
+            TextColor="DarkGreen" 
+            FontSize="38"/>
+
+        <Button Text="Sessie Starten"
+                FontSize="28"
+                x:Name="StartSessionButton"
+                AbsoluteLayout.LayoutBounds="60, 150"
+                BackgroundColor="#66BB6A"  
+                TextColor="White"
+                CornerRadius="10"
+                WidthRequest="300"
+                HeightRequest="100"/>
+
+        <Button Text="Vrienden Toevoegen"
+                FontSize="28"
+                x:Name="AddFriendsButton"
+                AbsoluteLayout.LayoutBounds="60, 350"
+                BackgroundColor="#66BB6A"
+                TextColor="White"
+                CornerRadius="10"
+                WidthRequest="300"
+                HeightRequest="100"/>
+
+        <Grid BackgroundColor="LightGray" HeightRequest="60"
+              VerticalOptions="End">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button Text="Home" Grid.Column="0" />
+            <Button Text="Zoeken" Grid.Column="1" />
+            <Button Text="Instellingen" Grid.Column="2" />
+        </Grid>
+
+    </AbsoluteLayout>
+</ContentPage>
