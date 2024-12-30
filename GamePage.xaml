@@ -10,5 +10,14 @@
             Text="Game Page!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <Button
+            Text="Get Word"
+            x:Name="GetWordButton"
+            BackgroundColor="#66BB6A"
+            TextColor="White"
+            CornerRadius="10"
+            HeightRequest="50"
+            Clicked="OnGetWordClicked" />
     </VerticalStackLayout>
 </ContentPage>
