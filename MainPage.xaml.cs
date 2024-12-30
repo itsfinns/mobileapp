@@ -18,7 +18,7 @@
             }
             else
             {
-                await Navigation.PushAsync(new StartPage());
+                await Navigation.PushAsync(new GamePage());
             }
         }
     }
