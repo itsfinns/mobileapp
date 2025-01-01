@@ -22,8 +22,11 @@
                 TextColor="White"
                 CornerRadius="10"
                 WidthRequest="300"
-                HeightRequest="100"/>
+                HeightRequest="100"
+                Clicked="OnSessieStartenClicked"/>
 
+        
+        
         <Button Text="Vrienden Toevoegen"
                 FontSize="28"
                 x:Name="AddFriendsButton"
@@ -33,19 +36,6 @@
                 CornerRadius="10"
                 WidthRequest="300"
                 HeightRequest="100"/>
-
-        <Grid BackgroundColor="LightGray" HeightRequest="60"
-              VerticalOptions="End">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
-
-            <Button Text="Home" Grid.Column="0" />
-            <Button Text="Zoeken" Grid.Column="1" />
-            <Button Text="Instellingen" Grid.Column="2" />
-        </Grid>
 
     </AbsoluteLayout>
 </ContentPage>

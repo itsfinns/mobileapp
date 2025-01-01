@@ -6,4 +6,9 @@ public partial class StartPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private async void OnSessieStartenClicked(object sender, EventArgs e)
+	{
+        await Navigation.PushAsync(new GamePage());
+    }
 }
