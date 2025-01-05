@@ -25,8 +25,19 @@
                 HeightRequest="100"
                 Clicked="OnSessieStartenClicked"/>
 
-        
-        
+        <Button Text="Vragen Scherm"
+                FontSize="28"
+                x:Name="QuestionScreenButton"
+                AbsoluteLayout.LayoutBounds="60, 550"
+                BackgroundColor="#66BB6A"
+                TextColor="White"
+                CornerRadius="10"
+                WidthRequest="300"
+                HeightRequest="100"
+                Clicked="OnQuestionScreenClicked"/>
+
+
+
         <Button Text="Vrienden Toevoegen"
                 FontSize="28"
                 x:Name="AddFriendsButton"
