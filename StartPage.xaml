@@ -40,7 +40,7 @@
         <Button Text="Vragen"
             FontSize="28"
             x:Name="QuestionButton"
-            AbsoluteLayout.LayoutBounds="60, 150"
+            AbsoluteLayout.LayoutBounds="60, 550"
             BackgroundColor="#66BB6A"  
             TextColor="White"
             CornerRadius="10"

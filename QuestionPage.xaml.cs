@@ -7,8 +7,8 @@ public partial class QuestionPage : ContentPage
 		InitializeComponent();
 	}
 
-    private void GetQuestionButton_Clicked(object sender, EventArgs e)
+    private void GetQuestionButtonClicked(object sender, EventArgs e)
     {
-
+		var questions = Constants.QUESTION_AT_RANDOM;
     }
 }
