@@ -12,7 +12,7 @@ public class TriviaService
     }
 
     // Methode om trivia vragen op te halen
-    public async Task<List<Vraag>> HaalVragenOpAsync(int aantal = 10)
+    public async Task<List<Vraag>> HaalVragenOpAsync(int aantal = 1)
     {
         string url = $"https://opentdb.com/api.php?amount={aantal}";
         var response = await _httpClient.GetAsync(url);
