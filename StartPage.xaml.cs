@@ -11,4 +11,9 @@ public partial class StartPage : ContentPage
 	{
         await Navigation.PushAsync(new GamePage());
     }
+
+    private async void OnQuestionButtonClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new QuestionPage());
+    }
 }

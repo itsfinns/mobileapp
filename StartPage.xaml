@@ -37,5 +37,16 @@
                 WidthRequest="300"
                 HeightRequest="100"/>
 
+        <Button Text="Vragen"
+            FontSize="28"
+            x:Name="QuestionButton"
+            AbsoluteLayout.LayoutBounds="60, 150"
+            BackgroundColor="#66BB6A"  
+            TextColor="White"
+            CornerRadius="10"
+            WidthRequest="300"
+            HeightRequest="100"
+            Clicked="OnQuestionButtonClicked"/>
+
     </AbsoluteLayout>
 </ContentPage>
